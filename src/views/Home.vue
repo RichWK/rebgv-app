@@ -1,28 +1,32 @@
 <template>
   <ion-page>
-    <ion-header>
+    <!-- <ion-header>
       <ion-toolbar>
         <ion-title>Home</ion-title>
       </ion-toolbar>
-    </ion-header>
+    </ion-header> -->
     <ion-content :fullscreen="true">
-      <ion-header collapse="condense">
+      <!-- <ion-header collapse="condense">
         <ion-toolbar>
           <ion-title size="large">Home</ion-title>
         </ion-toolbar>
-      </ion-header>
+      </ion-header> -->
     
-      <ExploreContainer name="Home page" />
+      <Logo />
     </ion-content>
   </ion-page>
 </template>
 
 <script lang="ts">
-import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
-import ExploreContainer from '@/components/ExploreContainer.vue';
+import { IonPage, IonContent } from '@ionic/vue';
+// import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
+
+import Logo from '@/components/Logo.vue';
 
 export default  {
   name: 'Home',
-  components: { ExploreContainer, IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
+  components: { Logo, IonContent, IonPage }
+  // components: { Logo, IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
 }
 </script>
+
