@@ -1,0 +1,4 @@
+# ionic-vue-test
+
+A bare-bones example to demonstrate how we could build our own mobile app in-house.
+
