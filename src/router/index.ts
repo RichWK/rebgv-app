@@ -20,12 +20,12 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('@/views/Home.vue')
       },
       {
-        path: 'tab2',
-        component: () => import('@/views/Tab2.vue')
+        path: 'events',
+        component: () => import('@/views/Events.vue')
       },
       {
-        path: 'tab3',
-        component: () => import('@/views/Tab3.vue')
+        path: 'account',
+        component: () => import('@/views/Account.vue')
       }
     ]
   }
