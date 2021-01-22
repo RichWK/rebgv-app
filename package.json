@@ -12,6 +12,7 @@
   "dependencies": {
     "@capacitor/android": "^2.4.6",
     "@capacitor/core": "2.4.6",
+    "@ionic-native/core": "^5.30.0",
     "@ionic-native/onesignal": "^5.30.0",
     "@ionic/vue": "^5.4.0",
     "@ionic/vue-router": "^5.4.0",
